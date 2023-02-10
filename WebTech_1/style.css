@@ -1,0 +1,148 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nav-bar
+{
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-image: linear-gradient(to right, #b0b3b7, #caccce)
+
+}
+.navbar
+{
+
+    background-image: linear-gradient(to right, #b0b3b7, #caccce)
+    padding 0 !important;
+
+}
+.navbar-brand img
+{
+    
+    height: 40px;
+    padding-left: 20px;
+    background-image: none;
+
+}
+.nav-link
+{
+    color: black;
+
+}
+.navbar-nav li
+{
+
+    padding: 0 10px;
+
+}
+.navbar-nav li
+{
+
+    color: #fff !important;
+    font-weight: 600;
+
+}
+.navbar-brand
+{
+
+    font-weight: 600;
+
+}
+
+#banner
+{
+
+    background-image: linear-gradient(to right, #b0b3b7, #caccce);
+    padding-top: 5%;
+
+}
+.welcome-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.forgoGTR
+{
+    animation: spin 10s infinite;
+    height: 35%;
+    border-radius: 50%;
+}
+
+@keyframes spin 
+{
+    from { transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+}
+
+.cim
+{
+    padding: 40px;
+}
+
+.cim::before
+{
+    content: '';
+    background: #b0b3b7;
+    height: 5px;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.cim::after
+{
+    content: '';
+    background: #b0b3b7;
+    height: 10px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+.simaGTRkep
+{
+    width: 76%;
+    border-radius: 700px;
+}
+
+.nismoGTRkep
+{
+    width: 76%;
+    border-radius: 700px;
+}
+
+#GTR-ek .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, #b0b3b7, #caccce);
+    margin-bottom: 100px;
+}
+
+label
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+table
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
